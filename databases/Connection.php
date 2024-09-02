@@ -15,7 +15,7 @@ class Connection
     {
         if (self::$pdo === null) {
             try {
-                self::$pdo = new PDO('sqlite:'.$config['dbname']);
+                self::$pdo = new PDO('mysql:host='.$config['host'].';dbname='.$config['dbname'], $config['user'], $config['password']);
             } catch (\PDOException $th) {
                 echo $th->getMessage();
             }

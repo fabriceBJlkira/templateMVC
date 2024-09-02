@@ -7,7 +7,7 @@ return [
      */
     'database' => [
         'host' => '127.0.0.1',
-        'dbname' => 'nomDatabase', // nomDatabase.db ra ohatra ka SQLITE
+        'dbname' => 'test', // nomDatabase.db ra ohatra ka SQLITE
         'user' => 'root',
         'password' => '',
     ],

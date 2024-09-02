@@ -25,7 +25,7 @@ if (!function_exists('view')) {
         if ($data != null) {
             extract($data);
         }
-        require "../views/$view.views.php";
+        require "views/$view.views.php";
     }
 }
 
